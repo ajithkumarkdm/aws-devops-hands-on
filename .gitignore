@@ -1,8 +1,24 @@
+# Terraform
 .terraform/
 *.tfstate
 *.tfstate.*
 terraform.tfvars
+*.tfvars
+crash.log
+crash.*.log
+
+# SSH private keys
 *.pem
+*.key
+id_rsa
+id_ed25519
 devops-task-key
 devops-task-key.pub
-crash.log
+
+# Credentials and environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
